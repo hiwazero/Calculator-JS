@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+   
+    <h1>Simple Calculator</h1>
+    <div class="calculator">
+        <div class="lcd" id="lcd"> 
+            <p class="result" id="result">0</p>
+        </div>
+
+        <div class="first row">
+            <button id="btn-clear" class="btn">CE</button>
+            <button id="btn-backspace" class="btn"><span class="material-symbols-outlined">backspace</span></button>
+            <button id="btn-op" class="btn">%</button>
+            <button id="btn-op" class="btn">/</button>
+        </div>
+
+        <div class="second row">
+            <button id="btn-number" class="btn">7</button>
+            <button id="btn-number" class="btn">8</button>
+            <button id="btn-number" class="btn">9</button>
+            <button id="btn-op" class="btn">x</button>
+        </div>
+
+        <div class="third row">
+            <button id="btn-number" class="btn">4</button>
+            <button id="btn-number" class="btn">5</button>
+            <button id="btn-number" class="btn">6</button>
+            <button id="btn-op" class="btn">+</button>
+        </div>
+
+        <div class="fourth row">
+            <button id="btn-number" class="btn">1</button>
+            <button id="btn-number" class="btn">2</button>
+            <button id="btn-number" class="btn">3</button>
+            <button id="btn-op" class="btn">-</button>
+        </div>
+
+        <div class="fifth row">
+            <button id="btn-number" class="btn">0</button>
+            <button id="btn-number" class="btn">.</button>
+            <button id="btn-op" class="btn equals">=</button>
+            <!-- <button id="btn-op">=</button> -->
+        </div>
+    </div>
+
+    <h4>Change Theme Mode: <button class="color-mode"><span class="material-symbols-outlined" id="color-mode">dark_mode</span></button></h4> 
+</body>
+</html>
